@@ -799,8 +799,10 @@
   fill: var(--spice-accent-active);
 }
 
-/* hover rightside panel  */
+/* Snippets */
 
+/* hover rightside panel  */
+/*
 #Desktop_LeftSidebar_Id {
   position: absolute;
   left: -280px;
@@ -821,7 +823,7 @@
 
 :root {
   margin-left: -8px;
-}
+} */
 
 /* "Queue Top Side Panel" */
 

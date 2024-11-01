@@ -7,7 +7,7 @@
     "enabledThemes": [
         "DiscordNight.css",
         "MinimalImprovementBorderless.theme.css",
-        "mocha.theme.css"
+        "midnight-catppuccin-mocha.theme.css"
     ],
     "enableReactDevtools": false,
     "frameless": true,
@@ -58,7 +58,7 @@
             "enabled": true
         },
         "AlwaysAnimate": {
-            "enabled": false
+            "enabled": true
         },
         "AlwaysTrust": {
             "enabled": true,
@@ -142,7 +142,8 @@
             "enabled": false
         },
         "Decor": {
-            "enabled": false
+            "enabled": false,
+            "agreedToGuidelines": false
         },
         "EmoteCloner": {
             "enabled": false
@@ -352,9 +353,6 @@
             "enabled": false
         },
         "PreviewMessage": {
-            "enabled": false
-        },
-        "PronounDB": {
             "enabled": false
         },
         "QuickMention": {
@@ -677,6 +675,16 @@
             "enabled": false
         },
         "AccountPanelServerProfile": {
+            "enabled": true,
+            "prioritizeServerProfile": true
+        },
+        "UserMessagesPronouns": {
+            "enabled": false
+        },
+        "DynamicImageModalAPI": {
+            "enabled": false
+        },
+        "FixImagesQuality": {
             "enabled": false
         }
     },
@@ -690,6 +698,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1729542061980
+        "settingsSyncVersion": 1729811075721
     }
 }

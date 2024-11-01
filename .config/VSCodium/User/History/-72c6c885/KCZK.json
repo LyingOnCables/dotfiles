@@ -1,0 +1,8 @@
+{
+  "window.menuBarVisibility": "toggle",
+  "window.newWindowProfile": "Arth",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "workbench.colorTheme": "Catppuccin Mocha"
+}

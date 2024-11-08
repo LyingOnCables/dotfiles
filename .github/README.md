@@ -1,10 +1,18 @@
-<div align="center">
-
-<p><h1>Dotfiles.</h1></p>
-
-</div>
-
-<p align="center">This repository includes my .configs, which I use in my daily routine on a machine with <i>Hyprland</i>. <br> Feel free to dig and find something of your interest. <br>:)</p>
+```mint
+                                             My .files
+--------------------------------------------------------------------------------------------------------
+   This repository includes my .configs, which I use in my daily routine on a machine with Hyprland.
+                          Feel free to dig and find something of your interest.
+                                                  :)
+ ╭─ Distro   -> Arch
+ ├─ WM       -> Hyprland
+ ├─ Editor   -> VSCode / NeoVim
+ ├─ Terminal -> Kitty
+ ├─ Shell    -> Fish
+ ├─ Theme    -> Catppuccin Macchiato
+ ├─ Icons    -> Catppuccin-SE
+ ╰─ Font     -> JetBrains Mono
+```
 
 <div align="center">
 

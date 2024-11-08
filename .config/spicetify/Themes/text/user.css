@@ -42,7 +42,7 @@
   /* none | block */
   --display-coverart-image: none;
   /* none | block */
-  --display-header-image: none;
+  /* --display-header-image: none; */
   /* none | block */
   --display-library-image: block;
   /* none | block */
@@ -801,30 +801,6 @@
 
 /* Snippets */
 
-/* hover rightside panel  */
-/*
-#Desktop_LeftSidebar_Id {
-  position: absolute;
-  left: -280px;
-  width: 288px;
-  height: 100%;
-  background-color: black;
-  opacity: 0;
-  visibility: visible;
-  transition: left 0.5s ease, opacity 0.5s ease;
-  z-index: 12;
-}
-
-#Desktop_LeftSidebar_Id:hover {
-  left: 0;
-  opacity: 1;
-  visibility: visible;
-}
-
-:root {
-  margin-left: -8px;
-} */
-
 /* "Queue Top Side Panel" */
 
 .main-nowPlayingView-section:not(.main-nowPlayingView-queue) {
@@ -851,71 +827,4 @@ button:has(
 }
 .progress-bar--isDragging {
   transition-duration: 150ms !important;
-}
-
-/* Thin library sidebar rows */
-
-.main-yourLibraryX-listItemGroup {
-  grid-template-rows: none !important;
-}
-.main-yourLibraryX-listItemGroup * {
-  padding-block: 0;
-}
-.main-yourLibraryX-listItem [role=\"group\"] {
-  min-block-size: 0 !important;
-}
-.main-yourLibraryX-listItem .HeaderArea .Column {
-  flex-direction: row;
-  gap: 0.5em;
-}
-.main-yourLibraryX-listItem .HeaderArea * {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-}
-.main-yourLibraryX-listItem .x-entityImage-imageContainer,
-.main-yourLibraryX-rowCover {
-  width: 1.6em !important;
-  height: 1.6em !important;
-}
-.main-yourLibraryX-listRowSubtitle {
-  padding-top: 0px;
-}
-
-/* Pretty lyrics */
-
-.lyrics-lyrics-background {
-  display: none;
-}
-.lyrics-lyrics-contentWrapper
-  > *:not(
-    .lyrics-lyricsContent-active,
-    .lyrics-lyricsContent-highlight,
-    .lyrics-lyricsContent-provider,
-    .lyrics-lyricsContent-description,
-    .lyrics-lyricsContent-unsynced
-  ) {
-  color: #ffffff4d !important;
-}
-.lyrics-lyrics-contentWrapper
-  > *:not(
-    .lyrics-lyricsContent-active,
-    .lyrics-lyricsContent-highlight,
-    .lyrics-lyricsContent-provider,
-    .lyrics-lyricsContent-description,
-    .lyrics-lyricsContent-unsynced
-  ):hover {
-  color: #ffffff !important;
-}
-.lyrics-lyricsContent-highlight {
-  color: #ffffff66;
-}
-.lyrics-lyricsContent-unsynced {
-  color: #ffffff !important;
-}
-.lyrics-lyricsContent-unsynced:hover {
-  color: #ffffff !important;
-}
-.lyrics-lyricsContent-provider,
-.lyrics-lyricsContent-description {
-  color: #ffffffb6 !important;
 }

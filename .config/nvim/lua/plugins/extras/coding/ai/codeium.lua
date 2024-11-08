@@ -23,7 +23,7 @@ return {
       local opts = { expr = true, silent = true }
       vim.g.codeium_disable_bindings = 1
 
-      vim.keymap.set("i", "<M-CR>", function()
+      vim.keymap.set("i", "<M-CR>", function() -- i = insert mode | M- = Alt | CR = Enter
         return vim.fn["codeium#Accept"]()
       end, opts)
 

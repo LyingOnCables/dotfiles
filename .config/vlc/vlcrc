@@ -2209,6 +2209,26 @@
 # Advanced options (string)
 #sout-avcodec-options=
 
+[fluidsynth] # FluidSynth MIDI synthesizer
+
+# SoundFont file (string)
+#soundfont=
+
+# Chorus (boolean)
+#synth-chorus=1
+
+# Synthesis gain (float)
+#synth-gain=0.500000
+
+# Polyphony (integer)
+#synth-polyphony=256
+
+# Reverb (boolean)
+#synth-reverb=1
+
+# Sample rate (integer)
+#synth-sample-rate=44100
+
 [dca] # DTS Coherent Acoustics audio decoder
 
 # DTS dynamic range compression (boolean)

@@ -10,10 +10,10 @@
       "<span foreground='#89b4fa'>▅</span>",
       "<span foreground='#89b4fa'>▆</span>",
       "<span foreground='#89b4fa'>▇</span>",
-      "<span foreground='#89b4fa'>█</span>",
+      "<span foreground='#89b4fa'>█</span>"
     ],
     "on-click": "kitty --class center-float-mini cava",
     "on-click-right": "qpwgraph",
-    "on-click-middle": "easyeffects",
-  },
+    "on-click-middle": "easyeffects"
+  }
 }

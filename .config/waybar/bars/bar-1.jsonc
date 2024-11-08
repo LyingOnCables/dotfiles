@@ -10,14 +10,9 @@
     "~/.config/waybar/modules/battery.jsonc",
     "~/.config/waybar/modules/hyprland-workspaces.jsonc",
     "~/.config/waybar/modules/clock-1.jsonc",
-    "~/.config/waybar/modules/pulseaudio.jsonc"
+    "~/.config/waybar/modules/pulseaudio.jsonc",
   ],
-  "modules-left": [
-    "custom/arch",
-    "hyprland/workspaces",
-    "custom/cava",
-    "custom/wf-recorder"
-  ],
+  "modules-left": ["custom/arch", "hyprland/workspaces", "custom/wf-recorder"],
   "modules-center": ["custom/music"],
   "modules-right": [
     "clock#cl1",
@@ -26,6 +21,6 @@
     "network",
     "battery",
     "pulseaudio",
-    "custom/notifications"
-  ]
+    "custom/notifications",
+  ],
 }

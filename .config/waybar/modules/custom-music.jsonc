@@ -8,6 +8,6 @@
     "exec": "~/.config/waybar/scripts/mediaplayer.py --player spotify",
     "on-click": "playerctl play-pause",
     "on-scroll-up": "playerctl next",
-    "on-scroll-down": "playerctl previous",
-  },
+    "on-scroll-down": "playerctl previous"
+  }
 }

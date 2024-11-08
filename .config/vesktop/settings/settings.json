@@ -676,7 +676,7 @@
         },
         "AccountPanelServerProfile": {
             "enabled": true,
-            "prioritizeServerProfile": true
+            "prioritizeServerProfile": false
         },
         "UserMessagesPronouns": {
             "enabled": false
@@ -698,6 +698,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1729811075721
+        "settingsSyncVersion": 1730909857602
     }
 }

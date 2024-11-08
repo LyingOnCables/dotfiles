@@ -1,5 +1,6 @@
 {
   "window.menuBarVisibility": "toggle",
   "window.newWindowProfile": "Arth",
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.restoreWindows": "none"
 }

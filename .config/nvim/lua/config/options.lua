@@ -6,8 +6,7 @@ vim.loader.enable()
 
 -- Personal Config and LazyVim global options
 go.lualine_info_extras = false
-go.lazyvim_statuscolumn.folds_open = true
-go.lazyvim_statuscolumn.folds_githl = true
+go.codeium_cmp_hide = false
 go.lazygit_config = false
 
 -- Define leader key
@@ -39,7 +38,7 @@ o.cmdheight = 0
 
 -- Enable spell checking
 o.spell = true
-o.spelllang:append("en")
+o.spelllang:append("es")
 
 -- Backspacing and indentation when wrapping
 o.backspace = { "start", "eol", "indent" }

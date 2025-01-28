@@ -4,7 +4,6 @@
     "lazyvim.plugins.extras.editor.dial",
     "lazyvim.plugins.extras.editor.mini-move",
     "lazyvim.plugins.extras.ui.edgy",
-    "lazyvim.plugins.extras.ui.mini-animate",
     "lazyvim.plugins.extras.util.dot",
     "plugins.extras.coding.ai.codecompanion",
     "plugins.extras.coding.ai.codeium",
@@ -78,7 +77,7 @@
     "plugins.extras.util.yazi"
   ],
   "news": {
-    "NEWS.md": "7429"
+    "NEWS.md": "10960"
   },
   "version": 7
 }

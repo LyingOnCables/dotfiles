@@ -35,10 +35,6 @@ return {
           name = "personal",
           path = "~/documents/obsidian-vaults/personal/",
         },
-        {
-          name = "personal-brain",
-          path = "~/documents/obsidian-vaults/personal-brain/",
-        },
       },
 
       notes_subdir = "Notes",

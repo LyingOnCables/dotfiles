@@ -21,5 +21,15 @@ return {
     notifier = {
       style = "fancy",
     },
+    terminal = {
+      win = {
+        position = "float",
+      },
+    },
+    scroll = {
+      animate = {
+        duration = { step = 20, total = 150 },
+      },
+    },
   },
 }

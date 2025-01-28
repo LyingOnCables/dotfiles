@@ -1,9 +1,0 @@
-
-      @-moz-document url-prefix("chrome:") {
-        
-#tabbrowser-tabpanels[zen-split-view='true'] .browserSidebarContainer[zen-split-active='true'] {
-    --uc-tweak-rounded-corners-shadow-color: var(--zen-colors-border) !important;
-}
-
-      }
-    

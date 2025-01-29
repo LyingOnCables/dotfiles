@@ -3,7 +3,6 @@
 
 This repository includes my .configs, which I use in my daily routine on a machine with Hyprland.<br>
 Feel free to dig and find something of your interest!<br>
-:<zero-width space>)
 
 </div>
 
